@@ -7,5 +7,8 @@ use Illuminate\Http\Request;
 
 class logincontoller extends Controller
 {
-    //
+    public function open()
+    {
+        return view('frontend.login');
+    }
 }

@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="{{url("frontend/css/slick.css")}}">
     <link rel="stylesheet" href="{{url("frontend/css/nice-select.css")}}">
     <link rel="stylesheet" href="{{url("frontend/css/style.css")}}">
+ <link rel="stylesheet" href="{{url("frontend/css/registration.css")}}">
 
 </head>
 <body>
@@ -63,7 +64,7 @@
                                                 <li><a href="{{url('/what')}}">Donation</a></li>
                                                 <li><a href="{{url('/projects')}}">Volunteers</a>
                                                     <ul class="submenu">
-                                                        <li><a href="{{url('/blog')}}">Registration</a></li>
+                                                        <li><a href="{{url('/registration')}}">Registration</a></li>
                                                     </ul>
                                                 </li>
                                                 <li><a href="{{url('/blog')}}">Palnting</a>
@@ -80,7 +81,7 @@
                                     </div>
                                     <!-- Header-btn -->
                                     <div class="header-right-btn d-none d-lg-block ml-20">
-                                            <a href="{{url('/')}}" class="btn header-btn ">Sign in</a></li>
+                                            <a href="{{url('/login')}}" class="btn header-btn ">Sign in</a></li>
                                     </div>
                                 </div>
                             </div>

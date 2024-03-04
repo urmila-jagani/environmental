@@ -10,8 +10,8 @@ use App\Http\Controllers\Frontend\Elementscontoller;
 use App\Http\Controllers\Frontend\indexcontoller;
 use App\Http\Controllers\Frontend\Projectcontoller;
 use App\Http\Controllers\Frontend\whatcontoller;
-//use App\Http\Controllers\Frontend\logincontoller;
-
+use App\Http\Controllers\Frontend\logincontoller;
+use App\Http\Controllers\Frontend\registrationcontoller;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -30,5 +30,6 @@ Route::get('/contact',[contactcontoller::class,'open']);
 Route::get('/elements',[Elementscontoller::class,'open']);
 Route::get('/projects',[Projectcontoller::class,'open']);
 Route::get('/what',[whatcontoller::class,'open']);
-//Route::get('/login',[logincontoller::class,'open']);
+Route::get('/login',[logincontoller::class,'open']);
+Route::get('/registration',[registrationcontoller::class,'open']);
 
