@@ -30,7 +30,7 @@
             <!-- left Contents -->
             <div class="tailor-details">
                 <span>Our Mission</span>
-                <h2>Our main goal is to protect animals</h2>
+                <h2>Our main goal is to protect animals(you)</h2>
                 <p>The automated process starts as soon as
                     your clothes go into the machine. Duis cursus, mi quis
                     viverra ornare, eros dolor interdum nulla, ut commodo
